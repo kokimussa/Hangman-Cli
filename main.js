@@ -17,7 +17,7 @@ game = {
  		this.resetGuesses();
  		this.currentWord = new Word(this.wordChoices[Math.floor(Math.random()* this.wordChoices.length)]);
  		this.currentWord.getLet();
- 		this.promptUsoer();
+ 		this.promptUser();
  	},
 
  	resetGuesses: function(){
